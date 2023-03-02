@@ -1,0 +1,28 @@
+body div > svg {
+  width: 17px;
+  height: 17px;
+}
+#status-bar {
+  display: flex;
+  display: center;
+}
+.status-bar_column {
+  display: flex;
+  align-items: center;
+  width: 33%;
+}
+.status-bar_column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar_column:last-child {
+  display: flex;
+  justify-content: end;
+}
+.status-bar_column:last-child span,
+.status-bar_column i {
+  margin: 0 3px;
+}
+div:first-child span {
+  margin-right: 3px;
+}
