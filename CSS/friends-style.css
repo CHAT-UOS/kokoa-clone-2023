@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import "reset.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 5px 3px;
+}
+
+body div > svg,
+footer img {
+  width: 17px;
+  height: 17px;
+}
+
+/*윗부분 상태창에 관련된 코드*/
+#top-status-window {
+  display: flex;
+  align-items: center;
+}
+.top-status-window__information {
+  width: 33%;
+}
+.top-status-window__information:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.top-status-window__information:last-child {
+  display: flex;
+  justify-content: end;
+}
+.top-status-window__information:last-child i,
+.top-status-window__information:last-child span {
+  margin: 0 3px;
+}
+
+/*상태창 아래 소제목 Friends part*/
+#name-of-page-friends {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name-of-page-friends__title {
+  padding: 10px 5px;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.name-of-page-friends__icons {
+  display: flex;
+  align-items: center;
+  margin: 0 10px 0 0;
+}
+.name-of-page-friends__title {
+  font-weight: bolder;
+}
+.name-of-page-friends__icon {
+  margin-left: 15px;
+}
+
+/*Friend's Name Display*/
+.Friend-Names-Display {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.Friend-Names-Display__text {
+  font-size: smaller;
+  margin: 0 15px 0 10px;
+}
+/*My Profile*/
+.need-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 360px;
+}
+.need-information__my-profile {
+  padding: 15px;
+  width: 85%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.need-information__my-profile img {
+  border-radius: 40%;
+}
+.need-information__my-profile span {
+  position: relative;
+  top: -23px;
+  right: -5px;
+}
+/*system screen*/
+.need-information__system__screen {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  width: 89%;
+}
+.need-information__system__screen__text {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.35);
+}
+.need-information__system__screen-1 {
+  width: 89%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.need-information__system__screen-1__channel-box img {
+  border-radius: 40%;
+}
+.need-information__system__screen-1__channel-box__text {
+  position: relative;
+  top: -17px;
+  right: -5px;
+}
+.under-icons {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  /*position: absolute;
+  bottom: 10px;*/
+}
