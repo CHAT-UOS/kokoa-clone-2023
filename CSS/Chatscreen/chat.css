@@ -1,0 +1,29 @@
+.Profile__box__image {
+  width: 70px;
+  height: 70px;
+}
+.Profile__box {
+  margin: 5px var(--horizontal-space);
+}
+.Profile__more {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 20px;
+}
+.Profile__more__time {
+  display: flex;
+  font-size: 12px;
+  margin-right: 10px !important;
+}
+.Profile__more__the-number-of-message {
+  display: flex;
+  background-color: tomato;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  padding: 0 4px;
+}

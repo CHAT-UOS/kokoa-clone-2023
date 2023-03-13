@@ -1,0 +1,193 @@
+@keyframes fadein {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+#chating {
+  background-color: #9ebdd3;
+  height: 200vh;
+  z-index: 10;
+}
+.status-line {
+  z-index: 100;
+  background-color: #9ebdd3 !important;
+  padding-bottom: 20px;
+}
+
+.chating-room {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #9ebdd3;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.chating-room {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chating-room__users {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 800;
+}
+.chating-room__icon {
+  margin-right: 45px;
+}
+.chating-room__icons i:last-child {
+  margin-left: 20px;
+}
+#all-chating-record {
+  animation: fadein 0.5s linear;
+}
+.chat-date {
+  display: flex;
+  justify-content: center;
+  color: white;
+  opacity: 0.7;
+  border-radius: 10px;
+  border: none;
+  background-color: #5e9fce;
+  font-size: 12px;
+  width: 40%;
+  margin: 80px auto;
+  padding: 5px;
+}
+.chating-record__other {
+  display: flex;
+  align-items: center;
+}
+
+.chating-record__other__profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+.chating-record__other__text__name {
+  font-size: 12px;
+  position: relative;
+  top: -1px;
+}
+.chating-record__other__text__infor {
+  position: relative;
+}
+.chating-record__other__text__chat {
+  background-color: white;
+  padding: 8px;
+  position: relative;
+  bottom: -10px;
+  border-radius: 10px;
+  font-size: 15px;
+  display: inline-block;
+}
+.chating-record__other__text__time {
+  font-size: 4px;
+  opacity: 0.6;
+  position: absolute;
+  right: -30px;
+}
+.chating-record__mine {
+  display: flex;
+  justify-content: end;
+  margin-top: 25px;
+}
+.chating-record__mine__text__chat {
+  background-color: rgb(249, 249, 62);
+  padding: 8px;
+  border-radius: 10px;
+  position: relative;
+  font-size: 15px;
+}
+.chating-record__mine__text__time {
+  font-size: 4px;
+  opacity: 0.6;
+  position: absolute;
+  left: -30px;
+  top: 21px;
+}
+.enter-chat-line {
+  position: fixed;
+  bottom: 0;
+  left: -2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 5px 15px;
+  transition: all 0.2s linear;
+}
+.enter-chat-line__plus-button {
+  width: 5%;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  margin-right: 3%;
+}
+
+.enter-chat-line__enter-chat {
+  width: 92%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.enter-chat-line__enter-chat > input {
+  width: 95%;
+  border-radius: 10px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.252);
+  transition: all 0.2s linear;
+}
+
+.enter-chat-line__enter-chat > button:last-child {
+  position: absolute;
+  right: 5%;
+  top: 3.7px;
+  background-color: rgb(249, 249, 62);
+  border-radius: 50%;
+  height: 27px;
+  border-color: rgb(187, 187, 187);
+  display: flex;
+}
+.enter-chat-line__enter-chat > button:nth-child(2) {
+  padding: 4.5px 6.5px;
+  position: absolute;
+  right: 10%;
+  top: 3.7px;
+  border-radius: 50%;
+  border: 1px solid rgb(187, 187, 187);
+}
+.enter-chat-line__plus-button > button {
+  padding: 5px 5px;
+  border-radius: 30%;
+  border-color: rgb(206, 206, 206);
+}
+.enter-chat-line__plus-button i {
+  position: relative;
+  top: 1.5px;
+}
+.enter-chat-line:focus-within input {
+  transform: translateX(-8%) translateY(-80px);
+  /*width: 98% !important; 
+  이거 왜 적용 잘 안되는지 피드백 가능하신가요 니꼬쌤*/
+}
+.enter-chat-line:focus-within {
+  transform: translateY(80px);
+}
+.enter-chat-line > div > button:focus-within {
+  opacity: 0;
+}

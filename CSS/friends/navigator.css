@@ -1,0 +1,36 @@
+.nav__ul {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #f9f9fa;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+.nav__ul__li {
+  position: relative;
+}
+.nav__ul__li__1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: -10px;
+  top: -11px;
+}
+.nav__ul__li__2 {
+  display: flex;
+  position: absolute;
+  background-color: tomato;
+  color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  right: -3px;
+}

@@ -1,0 +1,155 @@
+.Friends-screen h1 {
+  font-size: 20px;
+}
+#Find-mainpage {
+  margin: 5px 30px;
+}
+.Find-mainpage__convenience-function {
+  margin: 15px 0 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgba(81, 79, 79, 0.973);
+  font-weight: 400;
+  font-size: smaller;
+}
+.Find-mainpage__convenience-function-message {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  color: rgba(81, 79, 79, 0.973);
+  font-weight: 400;
+  font-size: 11px;
+  justify-content: space-around;
+  width: 98%;
+  margin-bottom: 30px;
+}
+.Find-mainpage__convenience-function-message-1 {
+  margin-top: 10px;
+}
+.Find-mainpage__convenience-function-message-2 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -6px;
+  left: -6.5px;
+}
+.Find-mainpage__convenience-function-message-3 {
+  margin-top: 10px;
+  position: relative;
+  left: -6.5px;
+}
+.Find-mainpage__convenience-function-message-4 {
+  margin-top: 10px;
+}
+.Find-mainpage__convenience-function span {
+  font-size: smaller;
+}
+.convenience-function {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.convenience-function span {
+  margin-top: 5px;
+}
+#Find-mainpage__convenience-function__add-by-contacts__message1 {
+  display: block;
+  margin-top: 13px;
+}
+#Find-mainpage__convenience-function__add-by-contacts__message2 {
+  margin-top: 0;
+}
+
+.Find-mainpage__Recommended-friends {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  margin: 30px 0;
+  color: rgba(0, 0, 0, 0.35);
+}
+.Find-mainpage__Recommended-friends__title {
+  display: block;
+  margin-top: 10px;
+  font-size: 10px;
+}
+.Find-mainpage__Recommended-friends__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 13px;
+  padding: 30px 0;
+}
+.Find-mainpage__open-chat__title {
+  color: rgba(0, 0, 0, 0.35);
+  font-size: smaller;
+  display: flex;
+  margin-top: 2px;
+  justify-content: space-between;
+}
+.Find-mainpage__open-chat__list {
+  padding: 10px 0 5px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.Find-mainpage__open-chat__list__profile__text {
+  margin-top: 5px;
+  font-size: smaller;
+}
+
+.Find-mainpage__open-chat__list__profile__text:nth-child(2) {
+  font-size: 5px;
+}
+.Find-mainpage__open-chat__list__profile__room {
+  display: flex;
+  align-items: center;
+  font-size: 3px;
+}
+.Find-mainpage__open-chat__list__profile__room img {
+  margin-right: 4px;
+}
+.Profile__box__image--xs {
+  height: 18px;
+  width: 18px;
+}
+.Find-mainpage__open-chat__list__picture img {
+  height: 60px;
+  width: 80px;
+  border-radius: 10%;
+}
+.Find-mainpage__open-chat__list__picture {
+  position: relative;
+  display: flex;
+}
+.the-number-of-heart {
+  border-radius: 5px;
+  position: absolute;
+  bottom: 2px;
+  right: 3px;
+  border: 1px solid rgb(91, 91, 91);
+  padding: 2px 4px;
+  background-color: rgba(154, 154, 154, 0.4);
+  color: white;
+}
+.the-number-of-heart i {
+  color: rgba(0, 0, 0, 0);
+}
+@keyframes heartbounce {
+  0% {
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.4);
+  }
+  100% {
+    transform: none;
+  }
+}
+.the-number-of-heart i {
+  will-change: transform;
+  animation: heartbounce 1s ease-in-out infinite;
+}

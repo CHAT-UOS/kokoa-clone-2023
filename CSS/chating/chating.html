@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chating</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body id="chating">
+    <div id="status-bar" class="status-line">
+      <div class="status-bar_column">
+        <span>No Service</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.288 15.038a5.25 5.25 0 017.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 011.06 0z"
+          />
+        </svg>
+      </div>
+      <div class="status-bar_column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar_column">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>11%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="chating-room">
+      <div class="chating-room__icon">
+        <a href="../Chatscreen/chat.html">
+          <i class="fas fa-chevron-left fa-lg"></i>
+        </a>
+      </div>
+      <div class="chating-room__users">Hyunwoo Park</div>
+      <div class="chating-room__icons">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fas fa-bars fa-lg"></i>
+      </div>
+    </header>
+    <main id="all-chating-record">
+      <div class="chat-date">
+        <div>Tuesday,June 30, 2020</div>
+      </div>
+      <div class="chating-record">
+        <div class="chating-record__other">
+          <img
+            class="chating-record__other__profile-img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdkl7CkOTUidRKE0JFSPjzBqXFKm7_ASAjFruavQ4&s"
+          />
+          <div class="chating-record__other__text">
+            <div class="chating-record__other__text__name">My Love</div>
+            <div class="chating-record__other__text__infor">
+              <div class="chating-record__other__text__chat">Hi!</div>
+              <div class="chating-record__other__text__time">21.27</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chating-record__mine">
+        <div class="chating-record__mine__text__chat">
+          What's up?
+          <div class="chating-record__mine__text__time">21.27</div>
+        </div>
+      </div>
+    </main>
+    <div class="media-query">
+      <span>Your screen is too small or big, so we can't show a app</span>
+    </div>
+    <form class="enter-chat-line">
+      <div class="enter-chat-line__plus-button">
+        <button><i class="far fa-plus-square fa-lg"></i></button>
+      </div>
+      <div class="enter-chat-line__enter-chat">
+        <input type="text" placeholder="write the message..." />
+        <button><i class="far fa-smile"></i></button>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

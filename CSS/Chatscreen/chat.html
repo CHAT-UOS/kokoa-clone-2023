@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="CSS/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Clone</title>
+    <title>Chat screen</title>
   </head>
-  <body id="vh100">
+  <body>
     <div id="status-bar">
       <div class="status-bar_column">
         <span>No Service</span>
@@ -36,85 +36,66 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-
     <header class="Friends-screen">
-      <h1 class="Friends-screen_text">Friends</h1>
+      <h1 class="Friends-screen_text">Chats</h1>
       <div class="Friends-screen__img">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-comment-medical fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <a href="CSS/Settings/settings.html"
-          ><span><i id="ok" class="fas fa-cog fa-lg"></i></span
+        <a href="../Settings/settings.html"
+          ><span><i class="fas fa-cog fa-lg"></i></span
         ></a>
       </div>
     </header>
 
-    <a id="Friends-Display">
-      <i class="fas fa-info-circle fa-sm"></i>
-      <span class="Friends-Display__text">Friends Names Display</span>
-      <i class="fas fa-chevron-right fa-sm"></i>
-    </a>
-
-    <main class="friends-screen">
+    <a href="../chating/chating.html">
       <div class="Profile">
         <div class="Profile__box">
           <img
-            src="css/friends/kokoatalk-imgae.jpeg"
+            src="../friends/kokoatalk-imgae.jpeg"
             class="Profile__box__image Profile__box__image--xl"
           />
           <div class="Profile__box__text">
-            <h4 class="Profile__box__text__name">Park-hyun-woo</h4>
-            <h6 class="Profile__box__text__message">Never Stop</h6>
-          </div>
-        </div>
-        <div class="Profile__more"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <span>Channel</span>
-        <i class="fas fa-chevron-up fa-sm"></i>
-      </div>
-      <div class="Profile">
-        <div class="Profile__box">
-          <img
-            src="css/friends/kokoatalk-imgae.jpeg"
-            class="Profile__box__image Profile__box__image--sm"
-          />
-          <div class="Profile__box__text">
-            <h4 class="Profile__box__text__name">Park-hyun-woo</h4>
-            <h6 class="Profile__box__text__message">Never Stop</h6>
+            <h4 class="Profile__box__text__name Profile__box__text__name--sm">
+              My Love
+            </h4>
+            <h6
+              class="Profile__box__text__message Profile__box__text__message--sm"
+            >
+              We will meet again in the next life
+            </h6>
           </div>
         </div>
         <div class="Profile__more">
-          <div>2</div>
-          <div><i class="fas fa-chevron-right fa-sm"></i></div>
+          <span class="Profile__more__time">23:43</span>
+          <span class="Profile__more__the-number-of-message">1</span>
         </div>
       </div>
-    </main>
-    <div id="splash-screen"><i class="fas fa-comment"></i></div>
-    <div class="media-query">
-      <span>Your screen is too small or big, so we can't show a app</span>
-    </div>
+    </a>
+
     <nav class="nav">
       <ul class="nav__ul">
         <li class="nav__ul__li">
-          <a href="friends.html"><i class="fas fa-user fa-2x"></i></a>
+          <a href="../../friends.html"><i class="far fa-user fa-2x"></i></a>
         </li>
         <li class="nav__ul__li">
           <span class="nav__ul__li__1">1</span>
-          <a href="CSS/Chatscreen/chat.html"
-            ><i class="far fa-comment fa-2x"></i
-          ></a>
+          <a href="chat.html"><i class="fas fa-comment fa-2x"></i></a>
         </li>
         <li class="nav__ul__li">
-          <a href="CSS/Find/Find.html"><i class="fas fa-search fa-2x"></i></a>
+          <a href="../Find/Find.html"><i class="fas fa-search fa-2x"></i></a>
         </li>
         <li class="nav__ul__li">
           <span class="nav__ul__li__2"></span>
-          <a href="CSS/More/more.html"
+          <a href="../More/more.html"
             ><i class="fas fa-ellipsis-h fa-2x"></i
           ></a>
         </li>
       </ul>
     </nav>
+    <div class="media-query">
+      <span>Your screen is too small or big, so we can't show a app</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"

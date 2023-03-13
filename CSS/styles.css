@@ -1,9 +1,42 @@
+/*font를 받아오기*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+/*기존의 모든 기본 브라우저 설정 리셋*/
 @import "reset.css";
+/*화면 상단 상태창 불러오기*/
 @import "Login/status_bar.css";
+
+/*기본 배경색 설정*/
 @import "Login/variables.css";
+/*로그인 폼 가져오기*/
 @import "Login/Login.css";
+
+/*friendsPartImport*/
+@import "friends/screen-header.css";
+@import "friends/navigator.css";
+@import "friends/friends.css";
+
+/*Profile*/
+@import "friends/Profile.css";
+
+@import "Chatscreen/chat.css";
+/*Find page*/
+@import "Find/Find.css";
+
+/*More page*/
+@import "More/more.css";
+
+/*Settings page*/
+@import "Settings/settings.css";
+
+/*chating screen*/
+@import "chating/chating.css";
+
+/*body에 대한 기본 설정*/
+
+/*media query 설정*/
+@import "../media.css";
 body {
   font-family: "Open Sans", sans-serif;
   margin: 5px 3px;
+  height: 1000vh;
 }

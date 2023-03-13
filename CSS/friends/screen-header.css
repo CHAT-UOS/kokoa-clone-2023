@@ -1,0 +1,14 @@
+.Friends-screen {
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Friends-screen_text {
+  padding: var(--horizontal-space);
+  font-size: 25px;
+  font-weight: 700;
+}
+.Friends-screen__img span {
+  margin-left: 20px;
+}

@@ -1,0 +1,46 @@
+.setting-screen {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 26px 10px 0 10px;
+  position: relative;
+  right: -5px;
+}
+.setting-tags {
+  margin: 15px 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+.setting-screen_text {
+  margin: 0 90px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.setting-tags__tag2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.setting-tags__tag2 > span {
+  font-size: 10px;
+  opacity: 0.4;
+}
+.setting-screen__img i {
+  position: relative;
+  right: 5px;
+}
+.setting-tags__tag {
+  padding: 12px 0 12px 0;
+  border-bottom: 1px solid rgba(15, 14, 14, 0.03);
+}
+.setting-tags__tag span {
+  margin-left: 10px;
+}
+#version {
+  border-bottom: 1px solid rgba(15, 14, 14, 0.1);
+}
+.setting-tags__tagv {
+  padding: 12px 0 16px 0;
+  border-bottom: 1px solid rgba(15, 14, 14, 0.1);
+}

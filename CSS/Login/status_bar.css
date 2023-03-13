@@ -3,8 +3,14 @@ body div > svg {
   height: 17px;
 }
 #status-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 .status-bar_column {
   display: flex;

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Clone</title>
+  </head>
+  <body id="vh100">
+    <div id="status-bar">
+      <div class="status-bar_column">
+        <span>No Service</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.288 15.038a5.25 5.25 0 017.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 011.06 0z"
+          />
+        </svg>
+      </div>
+      <div class="status-bar_column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar_column">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>11%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="Friends-screen">
+      <h1 class="Friends-screen_text">Find</h1>
+      <div class="Friends-screen__img">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <a href="../Settings/settings.html"
+          ><span><i class="fas fa-cog fa-lg"></i></span
+        ></a>
+      </div>
+    </header>
+
+    <main id="Find-mainpage">
+      <div class="Find-mainpage__convenience-function">
+        <div
+          class="Find-mainpage__convenience-function__QR-code convenience-function"
+        >
+          <i class="fas fa-qrcode fa-2x"></i>
+        </div>
+        <div
+          class="Find-mainpage__convenience-function__add-by-contacts convenience-function"
+        >
+          <i class="far fa-address-book fa-2x"></i>
+        </div>
+        <div
+          class="Find-mainpage__convenience-function__add-ID convenience-function"
+        >
+          <i class="fas fa-id-badge fa-2x"></i>
+        </div>
+        <div
+          class="Find-mainpage__convenience-function__invite convenience-function"
+        >
+          <i class="far fa-envelope fa-2x"></i>
+        </div>
+      </div>
+      <div class="Find-mainpage__convenience-function-message">
+        <span class="Find-mainpage__convenience-function-message-1"
+          >QR Code</span
+        >
+        <div class="Find-mainpage__convenience-function-message-2">
+          <span
+            id="Find-mainpage__convenience-function__add-by-contacts__message1"
+            >Add by</span
+          >
+          <span
+            id="Find-mainpage__convenience-function__add-by-contacts__message2"
+            >contacts</span
+          >
+        </div>
+        <span class="Find-mainpage__convenience-function-message-3"
+          >Add ID</span
+        >
+        <span class="Find-mainpage__convenience-function-message-4"
+          >Invite</span
+        >
+      </div>
+      <div class="Find-mainpage__Recommended-friends">
+        <span class="Find-mainpage__Recommended-friends__title"
+          >Recommended Friends</span
+        >
+        <div>
+          <span class="Find-mainpage__Recommended-friends__list">
+            You have no recommended friends.</span
+          >
+        </div>
+      </div>
+      <div class="Find-mainpage__open-chat">
+        <div class="Find-mainpage__open-chat__title">
+          <span>Open Chat</span>
+          <div>
+            <span>Go to Openchat Home</span>
+            <i class="fas fa-chevron-right fa-sm"></i>
+          </div>
+        </div>
+        <div class="Find-mainpage__open-chat__list">
+          <div>
+            <div class="Find-mainpage__open-chat__list__profile">
+              <div class="Find-mainpage__open-chat__list__profile__text">
+                <a href="#">#BTS</a>
+              </div>
+              <div
+                class="Find-mainpage__open-chat__list__profile__tags Find-mainpage__open-chat__list__profile__text"
+              >
+                <a
+                  href="https://www.google.com/search?q=BTS&sxsrf=AJOqlzWoxG4wzcF0emGOV75vILBiJ7VScQ%3A1677969829345&source=hp&ei
+                  =pckDZNvQE67iseMP24GSgAU&iflsig=AK50M_UAAAAAZAPXtdprqrbU_JC54wlNC3DEkfn-Iqhc&ved=0ahUKEwibt_vcrMP9AhUucWwGHduAB
+                  FAQ4dUDCAo&uact=5&oq=BTS&gs_lcp=Cgdnd3Mtd2l6EAMyCwguEIMBELEDEIAEMg4ILhCDARDUAhCxAxCABDILCC4Q1AIQsQMQgAQyBAgAEAM
+                  yBAgAEAMyCwguEIMBELEDEIAEMgUIABCABDILCC4QgAQQsQMQgwEyCwguEIAEELEDEIMBMgQILhADOgcIIxDqAhAnOgsIABCABBCxAxCDAToICA
+                  AQgAQQsQM6EQguEIAEELEDEIMBEMcBENEDOggILhCABBCxAzoNCC4QgAQQxwEQ0QMQCjoOCC4QgAQQsQMQgwEQ1AJQ5Q1Y7eG2AWDv5LYBaANwA
+                  HgAgAGGAYgB_QOSAQMwLjSYAQCgAQGwAQo&sclient=gws-wiz"
+                  >#BTS</a
+                >
+                <a
+                  href="https://www.google.com/search?q=%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8+%ED%8C%AC%ED%81%B4%EB%9F%BD
+                  &sxsrf=AJOqlzUTuexPUB3bOAFwczrPWc1YA_QgVg%3A1677977906263&ei=MukDZOLcD7uv4-EPuLCc8AI&ved=0ahUKEwjivazoysP9AhW71
+                  zgGHTgYBy4Q4dUDCA8&uact=5&oq=%EB%B0%A9%ED%83%84%EC%86%8C%EB%85%84%EB%8B%A8+%ED%8C%AC%ED%81%B4%EB%9F%BD&gs_lcp=C
+                  gxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDoHCCMQ6gIQJzoLCC4QgAQQsQMQgwE6BAgAEAM6CwgAEIAEELEDEIMBOhEILhCA
+                  BBCxAxCDARDHARDRAzoICC4QgAQQsQM6CwguEIAEEMcBEK8BOggIABCABBCxAzoFCC4QgAQ6BAgAEEM6BAguEEM6CAguELEDEIAEOg4ILhCDARD
+                  UAhCxAxCABDoICC4QgAQQ1AI6BggAEB4QDzoICAAQCBAeEA86BggAEAgQHkoECEEYAFAAWLMgYOYgaANwAXgBgAGoAYgBkx2SAQQwLjI0mAEAoA
+                  EBsAEKwAEB&sclient=gws-wiz-serp"
+                  >#ARMY</a
+                >
+                <a
+                  href="https://www.google.com/search?q=friends+&sxsrf=AJOqlzU54i52G0rtBlnnzFLJI2ASvWQkTw%3A1677977932263&ei=TOkD
+                  ZKndD7-r4-EPzdSY-AQ&ved=0ahUKEwips9_0ysP9AhW_1TgGHU0qBk8Q4dUDCA8&uact=5&oq=friends+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQ
+                  AzIOCC4QgAQQsQMQgwEQ1AIyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAg
+                  AEEc6BwgjEOoCECc6BAgjECc6CwgAEIAEELEDEIMBOgQIABADOhEILhCABBCxAxCDARDHARDRAzoLCC4QgAQQsQMQgwE6CAgAEIAEELEDOg4ILh
+                  CABBCxAxDHARDRAzoLCC4QgAQQxwEQ0QM6BAguEAM6BQguEIAEOggILhCABBCxAzoICC4QgAQQ1AI6CwguEIAEELEDENQCOg4ILhCDARDUAhCxA
+                  xCABEoECEEYAFDzEFi5MWDVPGgDcAR4AIABsgGIAdAMkgEEMC4xMJgBAKABAbABCsgBCsABAQ&sclient=gws-wiz-serp"
+                  >#FRIENDS</a
+                >
+              </div>
+              <div
+                class="Find-mainpage__open-chat__list__profile__room Find-mainpage__open-chat__list__profile__text"
+              >
+                <img
+                  src="../friends/kokoatalk-imgae.jpeg"
+                  class="Profile__box__image Profile__box__image--sm Profile__box__image--xs"
+                />
+                <span>802 members</span>
+                <span>|</span>
+                <span>spanActive</span>
+              </div>
+            </div>
+          </div>
+          <div class="Find-mainpage__open-chat__list__picture">
+            <img src="bts-2.webp" />
+            <span class="the-number-of-heart">
+              <i class="far fa-heart"></i>
+              <span>326</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="Find-mainpage__open-chat__list">
+          <div>
+            <div class="Find-mainpage__open-chat__list__profile">
+              <div class="Find-mainpage__open-chat__list__profile__text">
+                <a href="#">#UOSAI</a>
+              </div>
+              <div
+                class="Find-mainpage__open-chat__list__profile__tags Find-mainpage__open-chat__list__profile__text"
+              >
+                <a href="UOSAI-LOGO.png">#UOSAI</a>
+                <a href="UOSAI-student-council.png">#student-council</a>
+                <a href="#">#FRIENDS</a>
+              </div>
+              <div
+                class="Find-mainpage__open-chat__list__profile__room Find-mainpage__open-chat__list__profile__text"
+              >
+                <img
+                  src="../friends/kokoatalk-imgae.jpeg"
+                  class="Profile__box__image Profile__box__image--sm Profile__box__image--xs"
+                />
+                <span>59 members</span>
+                <span>|</span>
+                <span>spanActive</span>
+              </div>
+            </div>
+          </div>
+          <div class="Find-mainpage__open-chat__list__picture">
+            <img src="UOSAI-LOGO.png" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__ul__li">
+          <a href="../../friends.html"><i class="far fa-user fa-2x"></i></a>
+        </li>
+        <li class="nav__ul__li">
+          <a href="../Chatscreen/chat.html"
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__ul__li">
+          <a href="Find.html"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__ul__li">
+          <span class="nav__ul__li__2"></span>
+          <a href="../More/more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="media-query">
+      <span>Your screen is too small or big, so we can't show a app</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
