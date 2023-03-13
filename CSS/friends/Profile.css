@@ -45,6 +45,7 @@
   display: flex;
   width: 20px;
   color: rgba(0, 0, 0, 0.4);
+  justify-content: end;
 }
 .Profile__more div:last-child {
   margin-left: 10px;
